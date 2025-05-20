@@ -4441,3 +4441,12 @@ td:last-child {
         right: -2rem;
     }
 }
+
+.entry__thumb img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.entry__link, .entry__link .entry__thumb, .entry__link .entry__thumb img {
+    height: 100%;
+}
